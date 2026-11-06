@@ -12,12 +12,17 @@ to avoid: a 45 MB PowerPoint that cannot be diffed.
 
 Each release carries one MP4 per section, 1920×1080, H.264 video with AAC audio:
 
+Current release **v0.5.0** — narrated by Kokoro-82M (Apache-2.0), voice `af_heart`:
+
 | Asset | Length | Size | Covers |
 |---|---|---|---|
-| `section_01.mp4` | 1:47 | 1.96 MB | comments and identifiers |
-| `section_02.mp4` | 1:53 | 2.04 MB | variables and data types |
-| `section_03.mp4` | 1:23 | 1.39 MB | operators and expressions |
-| `section_04.mp4` | 1:47 | 1.90 MB | strings, numbers and conversion |
+| `section_01.mp4` | 1:25 | 1.79 MB | comments and identifiers |
+| `section_02.mp4` | 1:29 | 1.89 MB | variables and data types |
+| `section_03.mp4` | 1:00 | 1.22 MB | operators and expressions |
+| `section_04.mp4` | 1:21 | 1.65 MB | strings, numbers and conversion |
+
+`v0.4.0` remains available: the same four videos narrated by Windows SAPI (`Zira`),
+20–25 % longer, for comparison.
 
 Later releases extend this list; Track B (sections 17–20) and the remaining sections of
 the deck will appear as the videos are generated.
@@ -44,8 +49,10 @@ Consequences worth knowing:
 
 * **Timing is narration-driven.** When the lesson prose changes, the video re-derives;
   there is no performance to re-record and no drift between voice and slide.
-* **Narration is synthetic.** `Microsoft Zira` (en-US) at rate −1, offline, no narration
-  service involved.
+* **Narration is synthetic, locally generated.** Kokoro-82M (`af_heart`) through
+  `kokoro-onnx`, on CPU at RTF 0.15 — no narration service, nothing leaves the machine.
+  The earlier `v0.4.0` release used Windows SAPI (`Zira`); `tts.ps1` still exists as the
+  dependency-free fallback.
 * **Code, tables and diagram pointers are shown silently** for a fixed beat, because
   reading Rust aloud is worse than letting the reader look at it.
 
