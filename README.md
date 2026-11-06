@@ -12,8 +12,8 @@ to avoid: a 45 MB PowerPoint that cannot be diffed.
 
 Each release carries one MP4 per section, 1920×1080, H.264 video with AAC audio:
 
-Current release **v0.6.0** — all twenty sections, narrated by Kokoro-82M (Apache-2.0),
-voice `af_heart`. 1920×1080, H.264 + AAC, 24 kHz mono:
+Current release **v0.8.0** — all twenty sections with the diagrams embedded, narrated by
+Kokoro-82M (Apache-2.0), voice `af_heart`. 1920×1080, H.264 + AAC, 24 kHz mono:
 
 | Asset | Length | Size | Covers |
 |---|---|---|---|
@@ -39,8 +39,9 @@ voice `af_heart`. 1920×1080, H.264 + AAC, 24 kHz mono:
 | `section_20.mp4` | 1:15 | 1.79 MB | testing |
 | **total** | **26:59** | **34.5 MB** | 20 sections |
 
-Earlier releases remain for comparison: `v0.5.0` was the same four sections re-narrated
-with Kokoro, `v0.4.0` the same four with Windows SAPI (`Zira`), 20–25 % longer.
+Earlier releases remain for comparison: `v0.6.0` is the same twenty sections before the
+diagrams were embedded, `v0.5.0` four sections re-narrated with Kokoro, `v0.4.0` the same
+four with Windows SAPI (`Zira`), 20–25 % longer.
 
 ## Verify a download
 
