@@ -12,20 +12,35 @@ to avoid: a 45 MB PowerPoint that cannot be diffed.
 
 Each release carries one MP4 per section, 1920×1080, H.264 video with AAC audio:
 
-Current release **v0.5.0** — narrated by Kokoro-82M (Apache-2.0), voice `af_heart`:
+Current release **v0.6.0** — all twenty sections, narrated by Kokoro-82M (Apache-2.0),
+voice `af_heart`. 1920×1080, H.264 + AAC, 24 kHz mono:
 
 | Asset | Length | Size | Covers |
 |---|---|---|---|
 | `section_01.mp4` | 1:25 | 1.79 MB | comments and identifiers |
-| `section_02.mp4` | 1:29 | 1.89 MB | variables and data types |
+| `section_02.mp4` | 1:28 | 1.89 MB | variables and data types |
 | `section_03.mp4` | 1:00 | 1.22 MB | operators and expressions |
-| `section_04.mp4` | 1:21 | 1.65 MB | strings, numbers and conversion |
+| `section_04.mp4` | 1:20 | 1.66 MB | strings, numbers and conversion |
+| `section_05.mp4` | 0:50 | 1.08 MB | booleans and conditionals |
+| `section_06.mp4` | 1:07 | 1.51 MB | enums |
+| `section_07.mp4` | 1:14 | 1.55 MB | vectors |
+| `section_08.mp4` | 1:06 | 1.42 MB | maps |
+| `section_09.mp4` | 1:01 | 1.30 MB | ranges and iterators |
+| `section_10.mp4` | 0:54 | 1.20 MB | loops |
+| `section_11.mp4` | 2:27 | 3.21 MB | functions |
+| `section_12.mp4` | 1:17 | 1.72 MB | capstone: guess the number |
+| `section_13.mp4` | 1:26 | 1.80 MB | structs, methods and traits |
+| `section_14.mp4` | 1:16 | 1.60 MB | networks, IP, DNS and URLs |
+| `section_15.mp4` | 1:30 | 1.92 MB | clients and servers |
+| `section_16.mp4` | 1:37 | 2.05 MB | tables and SQL |
+| `section_17.mp4` | 1:30 | 1.84 MB | ownership and moves |
+| `section_18.mp4` | 1:27 | 1.78 MB | errors |
+| `section_19.mp4` | 1:38 | 2.19 MB | the keyboard and the disk |
+| `section_20.mp4` | 1:15 | 1.79 MB | testing |
+| **total** | **26:59** | **34.5 MB** | 20 sections |
 
-`v0.4.0` remains available: the same four videos narrated by Windows SAPI (`Zira`),
-20–25 % longer, for comparison.
-
-Later releases extend this list; Track B (sections 17–20) and the remaining sections of
-the deck will appear as the videos are generated.
+Earlier releases remain for comparison: `v0.5.0` was the same four sections re-narrated
+with Kokoro, `v0.4.0` the same four with Windows SAPI (`Zira`), 20–25 % longer.
 
 ## Verify a download
 
